@@ -46,8 +46,8 @@
             this.txtDobitniBroj6 = new System.Windows.Forms.TextBox();
             this.txtDobitniBroj7 = new System.Windows.Forms.TextBox();
             this.btnOdigraj = new System.Windows.Forms.Button();
-            this.IblNatpis = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblNatpis = new System.Windows.Forms.Label();
+            this.lblBrojPogodaka = new System.Windows.Forms.Label();
             this.groupBoxUplaceni.SuspendLayout();
             this.groupBoxDobitni.SuspendLayout();
             this.SuspendLayout();
@@ -209,33 +209,33 @@
             this.btnOdigraj.Text = "Odigraj";
             this.btnOdigraj.UseVisualStyleBackColor = true;
             // 
-            // IblNatpis
+            // lblNatpis
             // 
-            this.IblNatpis.AutoSize = true;
-            this.IblNatpis.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.IblNatpis.Location = new System.Drawing.Point(46, 238);
-            this.IblNatpis.Name = "IblNatpis";
-            this.IblNatpis.Size = new System.Drawing.Size(97, 13);
-            this.IblNatpis.TabIndex = 2;
-            this.IblNatpis.Text = "Broj pogodatka:";
+            this.lblNatpis.AutoSize = true;
+            this.lblNatpis.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblNatpis.Location = new System.Drawing.Point(46, 238);
+            this.lblNatpis.Name = "lblNatpis";
+            this.lblNatpis.Size = new System.Drawing.Size(97, 13);
+            this.lblNatpis.TabIndex = 2;
+            this.lblNatpis.Text = "Broj pogodatka:";
             // 
-            // label1
+            // lblBrojPogodaka
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(149, 238);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(14, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "0";
+            this.lblBrojPogodaka.AutoSize = true;
+            this.lblBrojPogodaka.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblBrojPogodaka.Location = new System.Drawing.Point(149, 238);
+            this.lblBrojPogodaka.Name = "lblBrojPogodaka";
+            this.lblBrojPogodaka.Size = new System.Drawing.Size(14, 13);
+            this.lblBrojPogodaka.TabIndex = 3;
+            this.lblBrojPogodaka.Text = "0";
             // 
             // FrmLoto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(364, 282);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.IblNatpis);
+            this.Controls.Add(this.lblBrojPogodaka);
+            this.Controls.Add(this.lblNatpis);
             this.Controls.Add(this.groupBoxDobitni);
             this.Controls.Add(this.groupBoxUplaceni);
             this.Name = "FrmLoto";
@@ -270,8 +270,8 @@
         private System.Windows.Forms.TextBox txtDobitniBroj3;
         private System.Windows.Forms.TextBox txtDobitniBroj2;
         private System.Windows.Forms.TextBox txtDobitniBroj1;
-        private System.Windows.Forms.Label IblNatpis;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblNatpis;
+        private System.Windows.Forms.Label lblBrojPogodaka;
     }
 }
 
