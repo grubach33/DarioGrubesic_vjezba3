@@ -52,7 +52,7 @@ namespace Loto_aplikacija
             txtDobitniBroj7.Text = loto.DobitniBrojevi[6].ToString();
 
             int brojPogodaka = loto.IzracunajBrojPogodaka();
-            IblBrojPogodaka.Text = brojPogodaka.ToString();
+            lblBrojPogodaka.Text = brojPogodaka.ToString();
 
         }
     }
